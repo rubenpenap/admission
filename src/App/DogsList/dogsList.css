@@ -1,0 +1,37 @@
+.dogsListContainer {
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  max-width: 98rem;
+  height: 100%;
+}
+.dogsListTitle {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.dogsListItem > button {
+  opacity: 0;
+}
+
+.dogsListItem:hover > button {
+  opacity: 1;
+}
+
+.dogsListItemName {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.dogsListItemButton {
+  font-size: 2rem;
+  font-weight: 200;
+  border-radius: 0;
+  margin-left: .5rem;
+  background-color: azure;
+  border: 1px solid black;
+  padding: .2rem 1.8rem;
+}
